@@ -1,0 +1,22 @@
+[BUSINESS RULE: NCC-24 - NORMAS DE CATEGORIZACIÓN Y CONTROL]
+Version: 2024.1
+Scope: Todos los proyectos de inversión CODELCO.
+
+Regla 1: Precedencia de Riesgos
+Toda estimación de CAPEX (SIC 16) debe estar precedida por un análisis de riesgos (SIC 03).
+La contingencia del proyecto debe ser proporcional al ETP (Estimación de Tiempo y Presupuesto) derivado del riesgo.
+
+Regla 2: Estructura del SIC
+Un documento SIC debe contener obligatoriamente:
+1. Resumen Ejecutivo (SIC 01)
+2. Análisis de Riesgos (SIC 03)
+3. Costos de Capital (SIC 16)
+4. Plazos y Cronograma (SIC 14)
+
+Regla 3: Validación de Calidad
+Un revisor experto debe validar que no existan contradicciones entre el SIC 03 y el SIC 16.
+El puntaje de calidad se basa en:
+- Coherencia Riesgo-Costo (40%)
+- Exactitud de Métricas (30%)
+- Cumplimiento de Formato (30%)
+Puntaje mínimo aprobatorio: 70/100.

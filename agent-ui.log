@@ -1,0 +1,19 @@
+
+> agent-ui@0.1.0 dev
+> next dev -p 3001 -p 3001
+
+   ▲ Next.js 15.2.8
+   - Local:        http://localhost:3001
+   - Network:      http://192.168.1.108:3001
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 4.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 15.6s (2522 modules)
+ GET /?db_id=&session=95139c1c-14dc-43a9-8cf2-b43879fb4b19 200 in 18116ms
+ ✓ Compiled in 3s (1208 modules)
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 2.3s (1330 modules)
+ GET /favicon.ico 200 in 2698ms
+[?25h

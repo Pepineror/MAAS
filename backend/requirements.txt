@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-dotenv
+openai
+agno
+sqlalchemy
+psycopg[binary]
+psycopg_pool
+httpx
+pydantic
+PyJWT
+markdown2

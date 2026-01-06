@@ -1,0 +1,117 @@
+nohup: no se tendrá en cuenta la entrada
+2026-01-06 00:05:54,218 - __main__ - INFO - Añadido al sys.path: /home/iades/IADES/PRODUCTOS/00.banco de probemas IADES/MAAS/MAAS3
+2026-01-06 00:05:57,513 - __main__ - INFO - ✅ Todas las dependencias importadas correctamente
+2026-01-06 00:05:57,557 - backend.core.async_postgres_db - INFO - ✅ AsyncPostgresDb inicializado exitosamente - Pool: 20 conexiones máx
+2026-01-06 00:05:57,593 - backend.core.async_postgres_db - INFO - ✅ Tablas creadas/verificadas exitosamente
+2026-01-06 00:05:57,731 - __main__ - INFO - ✅ ContextBroker inicializado correctamente
+2026-01-06 00:05:57,738 - __main__ - INFO - ✅ Agentes holónicos inicializados según documentación
+2026-01-06 00:05:57,741 - __main__ - INFO - ✅ Agentes de planificación inicializados
+2026-01-06 00:05:57,742 - __main__ - INFO - ✅ Equipo de documentos inicializado con 6 agentes
+2026-01-06 00:05:57,742 - __main__ - INFO - ✅ Workflow de creación de documentos inicializado
+INFO Agno tracing successfully set up with database storage                     
+2026-01-06 00:06:09,931 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/os "HTTP/2 201 Created"
+2026-01-06 00:06:10,596 - __main__ - INFO - 🔐 JWTMiddleware (Manual) integrado exitosamente con exclusiones
+2026-01-06 00:06:10,622 - __main__ - INFO - ============================================================
+2026-01-06 00:06:10,622 - __main__ - INFO - 🏗️  MAAS v4.0 Backend - Sistema de Agentes Holónicos
+2026-01-06 00:06:10,622 - __main__ - INFO - 📚 Arquitectura: Rules-First con Documentación Integrada
+2026-01-06 00:06:10,622 - __main__ - INFO - 📁 Directorio raíz: /home/iades/IADES/PRODUCTOS/00.banco de probemas IADES/MAAS/MAAS3
+2026-01-06 00:06:10,623 - __main__ - INFO - ============================================================
+2026-01-06 00:06:10,623 - __main__ - INFO - ✅ Todos los documentos de soporte encontrados
+2026-01-06 00:06:10,631 - backend.main - INFO - ✅ Todas las dependencias importadas correctamente
+2026-01-06 00:06:10,682 - backend.main - INFO - ✅ ContextBroker inicializado correctamente
+2026-01-06 00:06:10,684 - backend.main - INFO - ✅ Agentes holónicos inicializados según documentación
+2026-01-06 00:06:10,684 - backend.main - INFO - ✅ Agentes de planificación inicializados
+2026-01-06 00:06:10,685 - backend.main - INFO - ✅ Equipo de documentos inicializado con 6 agentes
+2026-01-06 00:06:10,685 - backend.main - INFO - ✅ Workflow de creación de documentos inicializado
+2026-01-06 00:06:25,205 - httpx - INFO - HTTP Request: POST https://os-api.agno.com/telemetry/os "HTTP/2 201 Created"
+2026-01-06 00:06:26,189 - backend.main - INFO - 🔐 JWTMiddleware (Manual) integrado exitosamente con exclusiones
+INFO:     Started server process [211319]
+INFO:     Waiting for application startup.
+2026-01-06 00:06:26,199 - backend.main - INFO - 🚀 Iniciando MAAS v4.0 Backend (Reglas-Primero)
+2026-01-06 00:06:26,199 - backend.main - INFO - 🔌 Inicializando pool de conexiones AsyncPostgresDb...
+2026-01-06 00:06:26,200 - backend.main - INFO - ✅ Pool AsyncPostgresDb inicializado
+2026-01-06 00:06:26,200 - backend.main - INFO - 📚 Cargando reglas de negocio en Knowledge Base...
+2026-01-06 00:06:26,200 - backend.core.context_broker - INFO - 📚 Loading templates from /home/iades/IADES/PRODUCTOS/00.banco de probemas IADES/MAAS/MAAS3/backend/knowledge/templates
+INFO Adding content from path, 2852f1ed-be86-5f88-88a8-a5cada6474ea, None,      
+     /home/iades/IADES/PRODUCTOS/00.banco de probemas                           
+     IADES/MAAS/MAAS3/backend/knowledge/templates, None                         
+INFO Adding content from path, 73290ab2-f189-5e5f-a564-ca9cd56b0323, None,      
+     /home/iades/IADES/PRODUCTOS/00.banco de probemas                           
+     IADES/MAAS/MAAS3/backend/knowledge/templates/PLANTILLA_MAESTRA_SIC_GENERICO
+     .md, None                                                                  
+INFO Deleted records with content hash                                          
+     'f46f3bc3e04d5518bd0749b8f9b7b404a11c5bcf9163ad3f36a9fef63455b3a1' from    
+     table 'ai.business_rules'.                                                 
+INFO Processing batch starting at index 0, size: 9                              
+2026-01-06 00:06:31,865 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:32,266 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:32,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:32,589 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:32,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:32,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:34,803 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:36,237 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2026-01-06 00:06:36,646 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO Upserted batch of 9 documents.                                             
+2026-01-06 00:06:37,452 - backend.core.context_broker - INFO - ✅ Templates loaded successfully
+2026-01-06 00:06:37,453 - backend.core.context_broker - INFO - 📚 Loading rules from /home/iades/IADES/PRODUCTOS/00.banco de probemas IADES/MAAS/MAAS3/backend/knowledge/rules_ncc24.txt
+INFO Adding content from path, 079b7e59-a951-54bd-943d-65c66af1533d, None,      
+     /home/iades/IADES/PRODUCTOS/00.banco de probemas                           
+     IADES/MAAS/MAAS3/backend/knowledge/rules_ncc24.txt, None                   
+INFO Deleted records with content hash                                          
+     '4bf6b3a1d9064b592e433974c726ee453d7a4a36f79717abf181c2c5c8825818' from    
+     table 'ai.business_rules'.                                                 
+INFO Processing batch starting at index 0, size: 1                              
+2026-01-06 00:06:38,755 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO Upserted batch of 1 documents.                                             
+2026-01-06 00:06:40,970 - backend.core.context_broker - INFO - ✅ NCC Rules loaded successfully
+2026-01-06 00:06:40,970 - backend.core.context_broker - INFO - 📚 Loading unified knowledge base from /home/iades/IADES/PRODUCTOS/00.banco de probemas IADES/MAAS/MAAS3/backend/knowledge/KNOWLEDGE_BASE_UNIFIED.md
+INFO Adding content from path, 891f857e-4087-50fa-bb8d-ec2a4afd24fd, None,      
+     /home/iades/IADES/PRODUCTOS/00.banco de probemas                           
+     IADES/MAAS/MAAS3/backend/knowledge/KNOWLEDGE_BASE_UNIFIED.md, None         
+INFO Deleted records with content hash                                          
+     'a592869c762ba6d6a1f141f2c1399f66b7d47d685a65b926627abeeabbee99db' from    
+     table 'ai.business_rules'.                                                 
+INFO Processing batch starting at index 0, size: 1                              
+2026-01-06 00:06:42,584 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO Upserted batch of 1 documents.                                             
+2026-01-06 00:06:47,158 - backend.core.context_broker - INFO - ✅ Unified Knowledge Base loaded successfully
+2026-01-06 00:06:47,158 - backend.core.context_broker - INFO - 📚 Loading template usage guide from /home/iades/IADES/PRODUCTOS/00.banco de probemas IADES/MAAS/MAAS3/backend/knowledge/TEMPLATE_USAGE_GUIDE.md
+INFO Adding content from path, 210bda57-2bb2-5e4e-b4fd-9d41a0023616, None,      
+     /home/iades/IADES/PRODUCTOS/00.banco de probemas                           
+     IADES/MAAS/MAAS3/backend/knowledge/TEMPLATE_USAGE_GUIDE.md, None           
+INFO Deleted records with content hash                                          
+     'f3ac744891c19bcce204d205b309942b3038d308f07cb78037a70d60b4616e7d' from    
+     table 'ai.business_rules'.                                                 
+INFO Processing batch starting at index 0, size: 1                              
+2026-01-06 00:06:48,349 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+INFO Upserted batch of 1 documents.                                             
+2026-01-06 00:06:48,660 - backend.core.context_broker - INFO - ✅ Template Usage Guide loaded successfully
+2026-01-06 00:06:48,661 - backend.core.context_broker - INFO - ✅ All rules loaded successfully
+2026-01-06 00:06:48,664 - backend.main - INFO - ✅ MAAS v4.0 iniciado correctamente
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:7777 (Press CTRL+C to quit)
+INFO:     127.0.0.1:53310 - "GET /favicon.ico HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:53310 - "GET /favicon.ico HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52572 - "OPTIONS /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "OPTIONS /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "OPTIONS /teams HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "GET /teams HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52572 - "OPTIONS /teams HTTP/1.1" 200 OK
+WARNING  Invalid token: Not enough segments                                     
+INFO:     127.0.0.1:52572 - "GET /teams HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:52572 - "OPTIONS /agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52584 - "OPTIONS /agents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52572 - "GET /agents HTTP/1.1" 401 Unauthorized
+WARNING  Invalid token: Not enough segments                                     
+INFO:     127.0.0.1:52572 - "GET /agents HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:36510 - "OPTIONS /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36510 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36510 - "OPTIONS /teams HTTP/1.1" 200 OK
+WARNING  Invalid token: Not enough segments                                     
+INFO:     127.0.0.1:36510 - "GET /teams HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:36510 - "OPTIONS /agents HTTP/1.1" 200 OK
+WARNING  Invalid token: Not enough segments                                     
+INFO:     127.0.0.1:36510 - "GET /agents HTTP/1.1" 401 Unauthorized
